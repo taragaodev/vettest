@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Clinica Vet</title>
+</head>
+
+<body>
+    <!-- MENU SIDEBAR -->
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class='bx bxl-vimeo icon'></i>
+            <div class="logo_name">CliVet</div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search...">
+                <span class="tooltip">Search</span>
+            </li>
+            <li>
+                <a href="#home">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="#spets">
+                    <i class='bx bxl-baidu'></i>
+                    <span class="links_name">PetShop</span>
+                </a>
+                <span class="tooltip">PetShop</span>
+            </li>
+            <li>
+                <a href="#mission">
+                    <i class='bx bx-money'></i>
+                    <span class="links_name">Nossa Missão</span>
+                </a>
+                <span class="tooltip">Nossa Missão</span>
+            </li>
+            <li>
+                <a href="#about">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">Quem Somos</span>
+                </a>
+                <span class="tooltip">Quem Somos</span>
+            </li>
+            <li>
+                <a href="#contact">
+                    <i class='bx bxs-business'></i>
+                    <span class="links_name">Fale Conosco</span>
+                </a>
+                <span class="tooltip">Fale Conosco</span>
+            </li>
+            <li class="profile">
+                <div class="profile-details">
+                    <img src="./assets/profile.jpg" alt="profile_image">
+                    <div class="name_job">
+                        <div class="name">Tiago Aragão</div>
+                        <div class="job">Developer</div>
+                    </div>
+                </div>
+                <i class="bx bx-log-out" id="log_out"></i>
+            </li>
+        </ul>
+    </div>
+    <section id="home">
+        <div class="home-content">
+            Home
+        </div>
+    </section>
+    <section id="spets">
+        <div class="pets-content">
+            <table id="pets" border="1"></table>
+        </div>
+    </section>
+    <section id="mission">
+        <div class="mission-content">
+            Nossa Missão
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-content">
+            Quem Somos!
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-content">
+            Fale Conosco
+        </div>
+    </section>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+
+</html>
